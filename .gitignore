@@ -1,0 +1,48 @@
+# === CLIENT ===
+/client/node_modules/
+/client/build/
+/client/dist/
+/client/.env
+/client/.env.*
+/client/.DS_Store
+
+# === SERVER ===
+/server/node_modules/
+/server/*.pyc
+/server/.env
+/server/.env.*
+/server/logs/
+server/debug.log
+
+# === ROOT ===
+/.pnp
+.pnp.js
+.DS_Store
+.env
+.env.*
+/coverage
+/build
+/logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# === IDE/Editor ===
+.vscode/
+.idea/
+*.sublime-workspace
+*.swp
+*.swo
+
+# === FIREBASE ===
+.firebase/
+.firebaserc
+firebase-debug.log
+firebase-debug.*.log
+firebase.json
+firestore.indexes.json
+firestore.rules
+storage.rules
+.env.firebase
+.firebasehosting.*.json
