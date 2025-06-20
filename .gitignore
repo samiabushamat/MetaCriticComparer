@@ -14,7 +14,10 @@
 /server/logs/
 server/debug.log
 
+
 # === ROOT ===
+/node_modules
+/node_modules/
 /.pnp
 .pnp.js
 .DS_Store
